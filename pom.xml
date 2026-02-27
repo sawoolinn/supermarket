@@ -3,4 +3,17 @@
   <groupId>java_project</groupId>
   <artifactId>project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	<build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+
+                <configuration>
+                    <mainClass>supermarket.SuperMarketMain</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

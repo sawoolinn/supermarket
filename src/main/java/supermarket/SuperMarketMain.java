@@ -28,8 +28,8 @@ public class SuperMarketMain {
   }
 
   public static void createObjects() {
-    new SimpleCustomer("Alan Turing","atur","1234");
-    new BonusCustomer("Donald Knuth","dkn","5678");
+    new SimpleCustomer("Saw Oo Lin","leo","1234");
+    new BonusCustomer("Kim Leap","leap","1234");
     new Product("Milk 1Lt",1.99,400);
     new Product("Schnitzel 350gr",5.98,70);
     new Product("Spaghetti 500gr",1.07,350);
